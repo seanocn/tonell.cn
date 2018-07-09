@@ -15,17 +15,17 @@
 
 return [
     // 应用名称
-    'app_name'               => '',
+    'app_name'               => 'Tonell',
     // 应用地址
-    'app_host'               => '',
+    'app_host'               => 'http://www.tonell.cn',
     // 应用调试模式
-    'app_debug'              => false,
+    'app_debug'              => true,
     // 应用Trace
     'app_trace'              => false,
     // 是否支持多模块
     'app_multi_module'       => true,
     // 入口自动绑定模块
-    'auto_bind_module'       => false,
+    'auto_bind_module'       => true,
     // 注册的根命名空间
     'root_namespace'         => [],
     // 默认输出类型
